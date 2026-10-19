@@ -1,0 +1,9 @@
+.education p:first-of-type {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.education p:last-of-type {
+  color: #6b7280;
+  font-size: 0.9rem;
+}

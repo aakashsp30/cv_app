@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+  font-family: system-ui, sans-serif;
+  color: #1f2937;
+}
+
+main{
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main>h1{
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cv-section{
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cv-section h2 {
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cv-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cv-section input,
+.cv-section textarea {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.cv-section input:focus,
+.cv-section textarea:focus {
+  outline: 2px solid #3b82f6;
+  border-color: transparent;
+}
+
+.cv-section textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.cv-section button {
+  align-self: self-start;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.cv-section button:hover {
+  background: #1d4ed8;
+}
+
+.cv-section p {
+  margin: 0.25rem 0;
+}

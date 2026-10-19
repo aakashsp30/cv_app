@@ -1,0 +1,14 @@
+.experience p:first-of-type {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.experience .responsibilities {
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+}
+
+.experience p:nth-last-of-type(-n + 2) {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
